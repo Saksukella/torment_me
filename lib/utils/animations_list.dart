@@ -1,0 +1,65 @@
+import 'dart:math';
+
+List<String> animationUrls = [
+  "https://assets4.lottiefiles.com/private_files/lf30_eorrtkiv.json",
+  "https://assets4.lottiefiles.com/packages/lf20_tqjrovxh.json",
+  "https://assets4.lottiefiles.com/packages/lf20_r1gncjwd.json",
+  "https://assets4.lottiefiles.com/packages/lf20_huwt6lxv.json",
+  "https://assets4.lottiefiles.com/packages/lf20_xvy2d2zk.json",
+  "https://assets4.lottiefiles.com/packages/lf20_keoed4f6.json",
+  "https://assets4.lottiefiles.com/packages/lf20_8wpitnly.json",
+  "https://assets4.lottiefiles.com/packages/lf20_8wpitnly.json",
+  "https://assets4.lottiefiles.com/packages/lf20_fk5ppn8d.json",
+  "https://assets4.lottiefiles.com/private_files/lf30_xpr2po8h.json",
+  "https://assets4.lottiefiles.com/packages/lf20_q77jpumk.json",
+  "https://assets9.lottiefiles.com/private_files/lf30_i2pyppik.json",
+  "https://assets9.lottiefiles.com/packages/lf20_wtwlbhcf.json",
+  "https://assets9.lottiefiles.com/packages/lf20_7mxwovzb.json",
+  "https://assets9.lottiefiles.com/packages/lf20_64z7ao1i.json",
+  "https://assets9.lottiefiles.com/packages/lf20_sdnbk5qw.json",
+  "https://assets9.lottiefiles.com/packages/lf20_r3bmpmp4.json",
+  "https://assets9.lottiefiles.com/packages/lf20_8ptubsmp.json",
+  "https://assets9.lottiefiles.com/packages/lf20_aelgvk2w.json",
+  "https://assets6.lottiefiles.com/packages/lf20_mdiaxdju.json",
+  "https://assets6.lottiefiles.com/packages/lf20_tuniawqh.json",
+  "https://assets6.lottiefiles.com/packages/lf20_bcjfw1k6.json",
+  "https://assets6.lottiefiles.com/packages/lf20_sf1bpcsj.json",
+  "https://assets6.lottiefiles.com/packages/lf20_jjs6fnps.json",
+  "https://assets6.lottiefiles.com/private_files/lf30_7anyyhq6.json",
+  "https://assets6.lottiefiles.com/private_files/lf30_yoav1gka.json",
+  "https://assets6.lottiefiles.com/packages/lf20_pghdouhq.json",
+  "https://assets6.lottiefiles.com/packages/lf20_w9bdffcb.json",
+  "https://assets6.lottiefiles.com/packages/lf20_iqxl5bjr.json",
+  "https://assets6.lottiefiles.com/packages/lf20_pjulrn8x.json",
+  "https://assets6.lottiefiles.com/packages/lf20_qavaymcn.json",
+  "https://assets4.lottiefiles.com/packages/lf20_r6blppzq.json"
+      "https://assets4.lottiefiles.com/private_files/lf30_f4qcnthw.json",
+  "https://assets4.lottiefiles.com/packages/lf20_oc9peor8.json",
+  "https://assets4.lottiefiles.com/private_files/lf30_n2tvjm2k.json"
+      "https://assets4.lottiefiles.com/packages/lf20_qogkaqmb.json",
+  "https://assets4.lottiefiles.com/packages/lf20_etjk2gn2.json",
+  "https://assets4.lottiefiles.com/private_files/lf30_jgdvwwjs.json",
+  "https://assets4.lottiefiles.com/private_files/lf30_oboipjp3.json",
+  "https://assets4.lottiefiles.com/packages/lf20_hcwpcdew.json",
+  "https://assets9.lottiefiles.com/packages/lf20_unlZRC.json"
+      "https://assets9.lottiefiles.com/packages/lf20_zpowlrfb.json",
+  "https://assets9.lottiefiles.com/packages/lf20_dczrdclv.json",
+  "https://assets9.lottiefiles.com/packages/lf20_dczrdclv.json",
+  "https://assets8.lottiefiles.com/packages/lf20_cq4kbg52.json",
+  "https://assets8.lottiefiles.com/packages/lf20_sytxvxgf.json",
+  "https://assets9.lottiefiles.com/private_files/lf30_nln9kxzl.json",
+  "https://assets9.lottiefiles.com/private_files/lf30_kjdggdn1.json",
+  "https://assets9.lottiefiles.com/private_files/lf30_rm9re5rq.json",
+  "https://assets9.lottiefiles.com/packages/lf20_cmsczshd.json",
+  "https://assets9.lottiefiles.com/packages/lf20_5fg99w6s.json",
+  "https://assets9.lottiefiles.com/private_files/lf30_juqdjgia.json",
+  "https://assets9.lottiefiles.com/packages/lf20_zboivc9e.json",
+  "https://assets9.lottiefiles.com/private_files/lf30_gvqcd3c6.json",
+  "https://assets6.lottiefiles.com/packages/lf20_q7uarxsb.json",
+  "https://assets6.lottiefiles.com/packages/lf20_g0rr0uyo.json",
+  "https://assets6.lottiefiles.com/private_files/lf30_njmlqovc.json"
+];
+
+String getRandomUrl() {
+  return animationUrls[Random().nextInt(animationUrls.length)];
+}

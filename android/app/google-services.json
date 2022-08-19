@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1086026492144",
+    "project_id": "tormentapp456238",
+    "storage_bucket": "tormentapp456238.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1086026492144:android:5c83f2931038b17e9f3a35",
+        "android_client_info": {
+          "package_name": "com.egemen_erdm.torment.torment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1086026492144-ho9nrcu6vv40o6q9js034b5jhle6q5co.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXPHCRjFTa74wVqEYzzi-nQOf_oWE_x2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1086026492144-ho9nrcu6vv40o6q9js034b5jhle6q5co.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
